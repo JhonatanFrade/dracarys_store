@@ -1,0 +1,63 @@
+img:hover{
+	opacity: 0.6;
+}
+
+body{
+	background-image: url(img/background-gameofthrones_3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+h6{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+h6:hover{
+	background-color: #111;
+}
+
+h5{
+	color: white;
+	font-size: 18px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /*display: inline-block;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+h3{
+	color: white;
+	font-size: 18px;
+}
+
+h4{
+	color: white;
+	font-size: 28px;
+}
