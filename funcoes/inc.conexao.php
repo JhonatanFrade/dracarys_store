@@ -10,8 +10,10 @@
 
 		$db_selected = mysql_select_db(BASE, $link) or die('Error mysql_select_db : '.mysql_error());
 
-		// echo "passei aqui";
-
 		return $link;
+	}
+
+	function chamada($query, $link){
+		mysql_query($query, $link) or die(mysql_error());
 	}
 ?>
