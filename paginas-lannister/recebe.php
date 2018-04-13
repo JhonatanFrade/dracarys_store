@@ -15,6 +15,6 @@
 
 	// echo $query;
 
-	chamada($query, $link);
+	inserir($query, $link);
 
 ?>

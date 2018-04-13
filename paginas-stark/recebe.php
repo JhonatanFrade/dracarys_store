@@ -13,8 +13,6 @@
 	$query  = 'INSERT INTO tb_usuarios (nome, sobrenome, cpf, senha, genero)
 			VALUES ("'.$nome.'", "'.$sobrenome.'", "'.$CPF.'", "'.$password.'", "'.$genero.'")';
 
-	// echo $query;
-
-	chamada($query, $link);
+	inserir($query, $link);
 
 ?>
