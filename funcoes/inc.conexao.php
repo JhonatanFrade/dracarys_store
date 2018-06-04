@@ -16,4 +16,5 @@
 	function inserir($query, $link){
 		mysql_query($query, $link) or die(mysql_error());
 	}
+
 ?>

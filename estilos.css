@@ -3,9 +3,10 @@ img:hover{
 }
 
 body{
-	background-image: url(img/background_01.jpg);
+    background-color: #111;
+	/*background-image: url(img/background_03.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100% 100%;*/
 }
 
 h6{
@@ -60,4 +61,19 @@ h3{
 h4{
 	color: white;
 	font-size: 28px;
+}
+
+h1{
+    color:#B22222; font-size: 20px;
+}
+
+h2{
+    color:#111; font-size: 18px;
+}
+
+.table-coments{
+    background-color: #DCDCDC;
+    width: 30%; 
+    border-radius: 4px; 
+    margin: 5px;
 }
